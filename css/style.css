@@ -5,6 +5,11 @@ body {
 }
 
 /* ======= Header section/Seção de cabeçalho ======= */
+header nav {
+  background: #fff;
+  box-shadow: 0px 0px 5px #4444;
+}
+
 /*
     sass --watch ./css/style.scss:./css/style.css
 */
