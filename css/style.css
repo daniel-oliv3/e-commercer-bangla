@@ -9,6 +9,9 @@ header nav {
   background: #fff;
   box-shadow: 0px 0px 5px #4444;
 }
+header nav a.navbar-brand img {
+  height: 40px;
+}
 
 /*
     sass --watch ./css/style.scss:./css/style.css
