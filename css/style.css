@@ -12,6 +12,24 @@ header nav {
 header nav a.navbar-brand img {
   height: 40px;
 }
+header nav form.search-form {
+  width: 300px;
+  margin-right: 50px;
+  position: relative;
+}
+header nav form.search-form input {
+  border-radius: 50px;
+}
+header nav form.search-form button.search-btn {
+  border-radius: 50px;
+  padding: 5px 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: var(--bs-orange);
+  border: 0;
+  color: #fff;
+}
 
 /*
     sass --watch ./css/style.scss:./css/style.css
