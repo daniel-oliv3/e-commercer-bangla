@@ -30,6 +30,10 @@ header nav form.search-form button.search-btn {
   border: 0;
   color: #fff;
 }
+header nav ul.action-menu .nav-item .nav-link {
+  margin: 0px 20px;
+  font-size: 18px;
+}
 
 /*
     sass --watch ./css/style.scss:./css/style.css
