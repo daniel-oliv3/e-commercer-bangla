@@ -59,7 +59,13 @@ section.slider .slider-text p {
   color: #4a4949cc;
 }
 section.slider .slider-text a.btn-order-now {
-  font-size: 16px;
+  font-size: 18px;
+  background: #fd7e145e;
+  padding: 10px 49px;
+  border-radius: 50px;
+  color: #ff7400;
+  font-weight: 600;
+  text-decoration: none;
 }
 section.slider .slider-image img {
   height: 400px;
