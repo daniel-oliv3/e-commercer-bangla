@@ -80,6 +80,10 @@ section.slider .slider-image img {
 }
 
 /* ======= Category Products Section/Seção de Categoria de Produtos ======= */
+section.category-product {
+  padding: 55px 0px;
+}
+
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 991px) {
   html {
