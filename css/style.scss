@@ -82,7 +82,11 @@ section.slider {
             color: #ff7400;
             font-weight: 600;
             text-decoration: none;
-        }
+
+            &:hover {
+                box-shadow: 2px 2px 5px rgba(255, 153, 68, 0.51);
+            }
+        }        
     }
 
     .slider-image img {

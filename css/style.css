@@ -67,6 +67,9 @@ section.slider .slider-text a.btn-order-now {
   font-weight: 600;
   text-decoration: none;
 }
+section.slider .slider-text a.btn-order-now:hover {
+  box-shadow: 2px 2px 5px rgba(255, 153, 68, 0.51);
+}
 section.slider .slider-image img {
   height: 400px;
   object-fit: contain;
