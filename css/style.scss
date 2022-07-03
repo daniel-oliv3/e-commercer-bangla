@@ -102,6 +102,33 @@ section.slider {
 /* ======= Category Products Section/Seção de Categoria de Produtos ======= */
 section.category-product {
     padding: 55px 0px;
+
+    .card {
+        background: #f7f7f7f7;
+    }
+
+    .card-body {
+        text-align: center;
+
+        img {
+            height: 190px;
+            object-fit: contain;
+        }
+
+        h4 {
+            font-size: 25px;
+            text-shadow: 1px 1px 1px #4444;
+            margin: 27px 0px;
+        }
+
+        a.view-all-btn {
+            background: var(--bs-success);
+            padding: 7px 30px;
+            border-radius: 50px;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
 }
 
 

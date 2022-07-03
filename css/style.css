@@ -83,6 +83,28 @@ section.slider .slider-image img {
 section.category-product {
   padding: 55px 0px;
 }
+section.category-product .card {
+  background: #f7f7f7f7;
+}
+section.category-product .card-body {
+  text-align: center;
+}
+section.category-product .card-body img {
+  height: 190px;
+  object-fit: contain;
+}
+section.category-product .card-body h4 {
+  font-size: 25px;
+  text-shadow: 1px 1px 1px #4444;
+  margin: 27px 0px;
+}
+section.category-product .card-body a.view-all-btn {
+  background: var(--bs-success);
+  padding: 7px 30px;
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+}
 
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 991px) {
