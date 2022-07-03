@@ -47,6 +47,32 @@ header {
 
 
 /* ======= Slide section/Seção de slides ======= */
+section.slider {
+    background: #f7f7f7f7;
+
+    .slider-text h2 {
+        font-size: 68px;
+        font-weight: 600;
+        
+        span.lighten {
+            color: var(--bs-orange);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

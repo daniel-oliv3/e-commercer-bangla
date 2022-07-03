@@ -36,6 +36,17 @@ header nav ul.action-menu .nav-item .nav-link {
 }
 
 /* ======= Slide section/Seção de slides ======= */
+section.slider {
+  background: #f7f7f7f7;
+}
+section.slider .slider-text h2 {
+  font-size: 68px;
+  font-weight: 600;
+}
+section.slider .slider-text h2 span.lighten {
+  color: var(--bs-orange);
+}
+
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 991px) {
   html {
