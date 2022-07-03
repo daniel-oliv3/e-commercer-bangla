@@ -105,28 +105,34 @@ section.category-product {
 
     .card {
         background: #f7f7f7f7;
-    }
 
-    .card-body {
-        text-align: center;
-
-        img {
-            height: 190px;
-            object-fit: contain;
+        .card-body {
+            text-align: center;
+    
+            img {
+                height: 190px;
+                object-fit: contain;
+            }
+    
+            h4 {
+                font-size: 25px;
+                text-shadow: 1px 1px 1px #4444;
+                margin: 27px 0px;
+            }
+    
+            a.view-all-btn {
+                background: var(--bs-success);
+                padding: 7px 30px;
+                border-radius: 50px;
+                color: #fff;
+                text-decoration: none;
+            }
         }
 
-        h4 {
-            font-size: 25px;
-            text-shadow: 1px 1px 1px #4444;
-            margin: 27px 0px;
-        }
-
-        a.view-all-btn {
-            background: var(--bs-success);
-            padding: 7px 30px;
-            border-radius: 50px;
-            color: #fff;
-            text-decoration: none;
+        &:hover {
+            .card-body img {
+                transform: scale(1.3);
+            }
         }
     }
 }
