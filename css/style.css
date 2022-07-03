@@ -4,6 +4,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #1a1e21;
+}
+
 /* ======= Header section/Seção de cabeçalho ======= */
 header nav {
   background: #fff;
@@ -38,6 +43,9 @@ header nav ul.action-menu .nav-item .nav-link {
 /* ======= Slide section/Seção de slides ======= */
 section.slider {
   background: #f7f7f7f7;
+  height: 566px;
+  /*altura*/
+  padding-top: 64px;
 }
 section.slider .slider-text h2 {
   font-size: 68px;
@@ -45,6 +53,17 @@ section.slider .slider-text h2 {
 }
 section.slider .slider-text h2 span.lighten {
   color: var(--bs-orange);
+}
+section.slider .slider-text p {
+  font-size: 16px;
+  color: #4a4949cc;
+}
+section.slider .slider-text a.btn-order-now {
+  font-size: 16px;
+}
+section.slider .slider-image img {
+  height: 400px;
+  object-fit: contain;
 }
 
 /* ======= Responsive/Responsividade ======= */

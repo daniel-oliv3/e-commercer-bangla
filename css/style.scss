@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
- body {
+body {
     font-family: 'Roboto', sans-serif;
- }
+}
+
+a {
+    text-decoration: none;
+    color: #1a1e21;
+}
+
 
 
 
@@ -49,14 +55,33 @@ header {
 /* ======= Slide section/Seção de slides ======= */
 section.slider {
     background: #f7f7f7f7;
+    height: 566px; /*altura*/
+    padding-top: 64px;
 
-    .slider-text h2 {
-        font-size: 68px;
-        font-weight: 600;
+    .slider-text {
+
+        h2 {
+            font-size: 68px;
+            font-weight: 600;
         
-        span.lighten {
-            color: var(--bs-orange);
+            span.lighten {
+                color: var(--bs-orange);
+            }
         }
+
+        p {
+            font-size: 16px;
+            color: #4a4949cc;
+        }
+
+        a.btn-order-now {
+            font-size: 16px;
+        }
+    }
+
+    .slider-image img {
+        height: 400px;
+        object-fit: contain;
     }
 }
 
