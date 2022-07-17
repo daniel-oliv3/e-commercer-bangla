@@ -139,8 +139,38 @@ section.category-product {
 
 
 
+/* ======= Banner Section/Seção de Banner ======= */
+section.banner {
 
+    padding: 20px 0px;
 
+    .item {
+        background: #ccc;
+        padding: 20px;
+
+        .text {
+            width: 209px;
+
+            h2 {
+                font-size: 36px;
+                line-height: 51px;
+                text-shadow: 1px 1px 1px #4444;
+            }
+
+            a.order-now {
+                background: #198754;
+                padding: 8px 29px;
+                border-radius: 50px;
+                color: #fff;
+            }
+        }
+
+        img {
+            object-fit: cover;
+            height: 200px;
+        }
+    }
+}
 
 
 

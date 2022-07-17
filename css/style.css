@@ -109,6 +109,33 @@ section.category-product .card:hover .card-body img {
   transform: scale(1.3);
 }
 
+/* ======= Banner Section/Seção de Banner ======= */
+section.banner {
+  padding: 20px 0px;
+}
+section.banner .item {
+  background: #ccc;
+  padding: 20px;
+}
+section.banner .item .text {
+  width: 209px;
+}
+section.banner .item .text h2 {
+  font-size: 36px;
+  line-height: 51px;
+  text-shadow: 1px 1px 1px #4444;
+}
+section.banner .item .text a.order-now {
+  background: #198754;
+  padding: 8px 29px;
+  border-radius: 50px;
+  color: #fff;
+}
+section.banner .item img {
+  object-fit: cover;
+  height: 200px;
+}
+
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 991px) {
   html {
