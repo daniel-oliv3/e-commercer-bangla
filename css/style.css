@@ -137,6 +137,14 @@ section.banner .item img {
 }
 
 /* ======= Latest Product Section/Seção de Produto Mais Recente ======= */
+section.latest-product {
+  padding: 33px 0px;
+  background: #f7f7f7f7;
+}
+section.latest-product .card .card-body img {
+  height: 160px;
+}
+
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 991px) {
   html {
