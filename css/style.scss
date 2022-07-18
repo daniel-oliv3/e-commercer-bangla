@@ -247,9 +247,10 @@ ul.footer-list {
   padding: 0px 20px;
 
   li a{
+    text-decoration: none;
 
     transition: .6s;
-    
+
     &:hover{
       color: #0f5132;
       padding-left: 7px;
@@ -268,7 +269,9 @@ ul.footer-list {
   align-items: center;
 }
 
-
+a.credits {
+    text-decoration: none;
+}
 
 
 
