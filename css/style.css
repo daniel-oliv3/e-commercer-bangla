@@ -211,9 +211,6 @@ a.credits {
   text-decoration: none;
 }
 
-/*
-    sass --watch ./css/style.scss:./css/style.css
-*/
 /* ======= Responsive/Responsividade ======= */
 @media (max-width: 991px) {
   html {
@@ -225,5 +222,8 @@ a.credits {
     font-size: 50%;
   }
 }
+/*
+    sass --watch ./css/style.scss:./css/style.css
+*/
 
 /*# sourceMappingURL=style.css.map */
